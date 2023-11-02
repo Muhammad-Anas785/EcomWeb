@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+.nav {
+    background-color: rgb(241, 241, 235);
+    height: 17vh;
+
+}
+
+#nevbar {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.nav img {
+    width: 12%;
+    margin-top: -3vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* side nav */
+#side-nav {
+    width: 16vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: rgb(207, 47, 47);
+    z-index: 2;
+    transition: 0.8s;
+}
+
+nav ul {
+    margin-top: 100px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 7vh 2.5vw 1vh 0vw;
+    text-align: left;
+    padding-bottom: 1vw;
+    border-bottom: 1px solid wheat;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+nav ul li a:hover {
+    color: wheat;
+    transition: 1s;
+}
+
+#menu-btn {
+    width: 3vw;
+    left: 3vw;
+    top: 5vh;
+    position: fixed;
+    z-index: 2;
+    cursor: pointer;
+
+}
+
+.nav i {
+    padding-top: 10vh;
+}
+
+/* side nav */
+
+
+/* nav */
+
+/* slider */
+.first-sld {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.first-sld h1 {
+    color: rgb(139, 32, 32);
+    font-weight: 600;
+    font-size: 10vh;
+    padding: 1vh;
+}
+
+.first-sld p {
+    color: #fff;
+    font-weight: 600;
+
+}
+
+/* slider */
+
+
+/* view collection */
+.btn-collection {
+    margin-left: 43%;
+    padding: 2vh 4vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    background-color: rgb(202, 57, 57);
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    transition: 1s;
+}
+
+.btn-collection:hover {
+    background-color: rgb(233, 95, 95);
+    color: rgb(252, 241, 241);
+    transition: 1s;
+}
+
+.bann {
+    overflow: hidden;
+}
+
+.banner1 {
+    background-image: url(../images/bag-banner1.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.banner2 {
+    background-image: url(../images/bag-banner2.png);
+}
+
+.women-bag-heading {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: rgb(104, 2, 2);
+    margin-top: 59vh;
+    font-weight: 600;
+    font-size: 40px;
+
+
+}
+
+.women-para {
+    font-family: 'Fira Sans Condensed', sans-serif;
+
+
+}
+
+.women-btn {
+    padding: 2vh 4vw;
+    background-color: rgb(202, 57, 57);
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.women-btn:hover {
+    background-color: white;
+    color: rgb(202, 57, 57);
+    transition: 1s;
+    font-weight: 500;
+}
+
+.men-bag-heading {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: rgb(104, 2, 2);
+
+    margin-top: 59vh;
+    font-weight: 600;
+    font-size: 40px;
+
+
+}
+
+
+.banner3 {
+    background-image: url(../images/bag-banner3.jpg);
+    background-size: 100% 100%;
+}
+
+.banner4 {
+    background-image: url(../images/bag-banner4.jpg);
+    background-size: 100% 100%;
+}
+
+/* view collection */
+
+
+/* men & women */
+.men-head {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    letter-spacing: 5px;
+
+}
+
+.men-collection1 {
+    background-image: url(../images/men-bag1.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+}
+
+.men-collection1:hover {
+    background-image: url(../images/bag-1.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.men-collection2 {
+    background-image: url(../images/men-bag2.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.men-collection2:hover {
+    background-image: url(../images/bag-2.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.men-collection3 {
+    background-image: url(../images/men-bag3.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.men-collection3:hover {
+    background-image: url(../images/bag-3.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.men-collection4 {
+    background-image: url(../images/men-bag4.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.men-collection4:hover {
+    background-image: url(../images/bag-4.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.men-collection5 {
+    background-image: url(../images/men-bag5.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.men-collection5:hover {
+    background-image: url(../images/bag-5.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.men-collection6 {
+    background-image: url(../images/men-bag6.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.men-collection6:hover {
+    background-image: url(../images/bag-6.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.men-collection-paragraph {
+    margin-top: 45vh;
+    color: white;
+    font-weight: 600;
+    font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+
+
+
+.women-collection1 {
+    background-image: url(../images/women-bag1.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+}
+
+.women-collection1:hover {
+    background-image: url(../images/women-bag1.1.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.women-collection2 {
+    background-image: url(../images/women-bag2.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.women-collection2:hover {
+    background-image: url(../images/women-bag2.1.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.women-collection3 {
+    background-image: url(../images/women-bag3.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.women-collection3:hover {
+    background-image: url(../images/women-bag3.1.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.women-collection4 {
+    background-image: url(../images/women-bag4.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.women-collection4:hover {
+    background-image: url(../images/women-bag4.1.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.women-collection5 {
+    background-image: url(../images/women-bag5.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.women-collection5:hover {
+    background-image: url(../images/women-bag5.1.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.women-collection6 {
+    background-image: url(../images/women-bag6.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+.women-collection6:hover {
+    background-image: url(../images/women-bag6.1.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+    transition: all 1s ease;
+
+}
+
+
+/* men & women */
+
+
+/* view all products */
+.collection-heading1{
+    font-family: 'Raleway', sans-serif;
+    /* color: rgb(161, 11, 11); */
+    color: #fff;
+
+
+
+}
+.detail-btn{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    border: none;
+    background-color: rgb(236, 59, 59);
+    color: #fff;
+
+}
+.price{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.men-section{
+    background-image: url(../images/men-collection-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.women-section{
+    background-image: url(../images/women-collection-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+/* view all products */
+
+
+
+
+/* men collection */
+.men-collection-bg{
+    background-image: url(../men-collection-pics/men-collection-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.more-btn{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    border: none;
+    background-color: rgb(163, 17, 17);
+    color: #fff;
+    transition: 1s;
+    
+
+}
+.more-btn:hover{
+    background-color: rgb(230, 66, 66);
+    color:rgb(255, 255, 255) ;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.women-collection-bg{
+    background-image: url(../women-collection-pics/women-collection-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+/* men collection */
+
+/* laptop collection */
+.laptop-bg{
+    background-image: url(../images/laptop-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/* laptop collection */
+
+/* bag-details */
+.product-name{
+    font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+.product-price{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: rgb(109, 103, 103);
+
+}
+.input-group{
+    z-index: 0;
+}
+/* bag-details */
+
+/* contact us */
+
+.map{
+    width: 100%;
+    height: 70vh;
+}
+input::placeholder{
+    padding: 1vh;
+    font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+textarea::placeholder{
+    padding: 1vh;
+    font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+/* contact us */

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lone Bagster</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/home-style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="short icon" type="img" href="images/fav.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+    <!-- start here -->
+    <section id="nevbar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 nav" id="barnav">
+                    <img src="images/logo1.png" class="img-fluid" alt="">
+                    <i class="fa-solid fa-house pe-4 text-danger fs-5"></i>
+                    <i class="fa-sharp fa-solid fa-magnifying-glass pe-4 text-danger fs-5"></i>
+                    <i class="fa-solid fa-user pe-4 text-danger fs-5"></i>
+                </div>
+            </div>
+
+            <!-- side nav -->
+            <nav id="side-nav">
+                <ul>
+                    <li><a href="" class="nav-link disabled text-light">HOME</a></li>
+
+                    <li><a href="men-bags.html">MEN</a></li>
+                    <li><a href="women-bags.html">WOMEN</a></li>
+                    <li><a href="laptopbag.html">LAPTOP BAGS</a></li>
+                    <li><a href="contact-us.html">CONTACT US</a></li>
+                    <li><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">FEED BACK</a></li>
+
+                </ul>
+            </nav>
+            <img src="images/menu.png" id="menu-btn" alt="">
+
+
+            <!-- side nav -->
+
+
+
+        </div>
+    </section>
+
+
+
+    <!-- MODAL  -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header ">
+                    <h1 class="modal-title text-danger fw-bold fs-5" id="exampleModalLabel">Customer's Feedback</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <i class="fa-solid fa-star text-center fs-3" id="st1" onclick='ratings(1)'></i>
+                    <i class="fa-solid fa-star text-center fs-3" id="st2" onclick='ratings(2)'></i>
+                    <i class="fa-solid fa-star text-center fs-3" id="st3" onclick='ratings(3)'></i>
+                    <i class="fa-solid fa-star text-center fs-3" id="st4" onclick='ratings(4)'></i>
+                    <i class="fa-solid fa-star text-center fs-3" id="st5" onclick='ratings(5)'></i>
+
+                    <div>
+                        <label for="" class="fw-bold text-danger py-2">Feedback</label>
+                    </div>
+                    <textarea name="" id="" class="form-control mb-3" cols="30" rows="10" placeholder="write here.."></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger px-5">Send Feedback</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL -->
+
+    <!-- Corousel -->
+
+
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/pic1.jpg" class="d-block w-100" height="600" alt="...">
+                    <div class="carousel-caption d-none d-md-block first-sld">
+                        <h1>Travelling Partner </h1>
+                        <p>Providing the best luggage storage services since day one</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/pic2.jpg" class="d-block w-100" height="600" alt="...">
+                    <div class="carousel-caption d-none d-md-block first-sld">
+                        <h1 class="text-light">Beautiful Journey </h1>
+                        <p>Travel further. Travel longer. Travel deeper</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/pic3.jpg" class="d-block w-100" height="600" alt="...">
+                    <div class="carousel-caption d-none d-md-block first-sld">
+                        <h1 class="text-light">Completeness</h1>
+                        <p>We feel travel.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- Corousel -->
+
+
+    <!--view Collection -->
+    <section>
+        <button class="btn-collection" onclick="location.href='view-all-products.html'">View All Products</button>
+
+        <div class="container-fluid">
+
+
+            <div class="row my-4 bann">
+
+                <!-- MENS BAGS COLLECTION -->
+                <div class="col-md-5 bg-danger p-5 mx-auto banner1 rounded-3" data-aos="fade-right"
+                    data-aos-duration="1000" data-aos-easing="linear">
+                    <h3 class="men-bag-heading">MEN BAGS COLLECTION</h3>
+                    <p class="fw-bold women-para text-light">Fashion is What You Buy,Style What is What You Do <br> With
+                        It.</p>
+                    <button class="women-btn" onclick="location.href='men-bags.html'">View Products</button>
+                </div>
+                <!-- MENS BAGS COLLECTION -->
+
+
+                <!-- WOMENS BAGS COLLECTION -->
+                <div class="col-md-5 bg-info p-5 mx-auto banner2 rounded-3" data-aos="fade-left"
+                    data-aos-duration="1000" data-aos-easing="linear">
+                    <h3 class="women-bag-heading">WOMEN BAGS COLLECTION</h3>
+                    <p class="fw-bold women-para">Fashion is What You Buy,Style What is What You Do <br> With It.</p>
+                    <button class="women-btn" onclick="location.href='women-bags.html'">View Products</button>
+                </div>
+                <!-- WOMENS BAGS COLLECTION -->
+
+            </div>
+
+
+
+
+
+            <div class="row my-5 bann">
+
+                <!-- LAPTOP BAGS COLLECTION -->
+                <div class="col-md-5 bg-danger p-5 mx-auto banner3 rounded-3" data-aos="fade-right"
+                    data-aos-duration="1000" data-aos-easing="linear">
+                    <h3 class="men-bag-heading text-danger">LAPTOP BAGS COLLECTION</h3>
+                    <p class="fw-bold text-light">Fashion is What You Buy,Style What is What You Do <br> With
+                        It.</p>
+                    <a href="laptopbag.html"><button class="women-btn">View Products</button></a>
+                </div>
+                <!-- LAPTOP BAGS COLLECTION -->
+
+
+
+                <div class="col-md-5 bg-info p-5 mx-auto banner4 rounded-3" data-aos="fade-left"
+                    data-aos-duration="1000" data-aos-easing="linear">
+                    <h3 class="women-bag-heading text-danger">WOMEN CLUTCHES</h3>
+                    <p class="fw-bold text-light">Fashion is What You Buy,Style What is What You Do <br> With It.</p>
+                    <a href="women-categorywise/women-clutches.html"><button class="women-btn">View
+                            Products</button></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--view Collection -->
+
+
+    <!-- mens section -->
+    <section>
+        <div class="container">
+            <h3 class="text-center text-danger fw-bold men-head py-5 ">MENS COLLECTION</h3>
+            <div class="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear">
+                <div class="col-md-3 men-collection1 mx-auto my-4">
+                    <p class="men-collection-paragraph">Laptop Bag Black</p>
+                    <button class="btn btn-info men-btn px-5 fw-bold text-light bg-danger border-0 rounded-0"
+                        onclick="details('../images/men-bag1.jpg','Laptop Bag Black','2000'),location.href='bags-details/bag-details.html'">Price
+                        : 2000</button>
+                </div>
+
+                <div class="col-md-3 men-collection2 mx-auto my-4">
+                    <p class="men-collection-paragraph">Bowling</p>
+                    <button class="btn btn-info men-btn px-5 fw-bold text-light bg-danger border-0 rounded-0"
+                        onclick="details('../images/men-bag2.jpg','Bowling','2000'),location.href='bags-details/bag-details.html'">Price
+                        : 2000</button>
+                </div>
+                <div class="col-md-3 men-collection3 mx-auto my-4">
+                    <p class="men-collection-paragraph">Professional Bag</p>
+                    <button class="btn btn-info men-btn px-5 fw-bold text-light bg-danger border-0 rounded-0"
+                        onclick="details('../images/men-bag3.jpg','Professional Bag','2000'),location.href='bags-details/bag-details.html'">Price
+                        : 2000</button>
+                </div>
+            </div>
+
+            <div class="row" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear">
+                <div class="col-md-3 men-collection4 mx-auto my-4">
+                    <p class="men-collection-paragraph">BackPack</p>
+                    <button class="btn btn-info men-btn px-5 fw-bold text-light bg-danger border-0 rounded-0"
+                        onclick="details('../images/men-bag4.jpg','BackPack','2000'),location.href='bags-details/bag-details.html'">Price
+                        : 2000</button>
+                </div>
+                <div class="col-md-3 men-collection5 mx-auto my-4">
+                    <p class="men-collection-paragraph">Messenger</p>
+                    <button class="btn btn-info men-btn px-5 fw-bold text-light bg-danger border-0 rounded-0"
+                        onclick="details('../images/men-bag5.jpg','Messenger','2000'),location.href='bags-details/bag-details.html'">Price
+                        : 2000</button>
+                </div>
+                <div class="col-md-3 men-collection6 mx-auto my-4">
+                    <p class="men-collection-paragraph">Duffel</p>
+                    <button class="btn btn-info men-btn px-5 fw-bold text-light bg-danger border-0 rounded-0"
+                        onclick="details('../images/men-bag6.jpg','Duffel','2000'),location.href='bags-details/bag-details.html'">Price
+                        : 2000</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- mens section -->
+
+
+
+
+    <!-- womens section -->
+    <section>
+        <div class="container">
+            <h3 class="text-center text-danger fw-bold men-head py-5 ">WOMENS COLLECTION</h3>
+            <div class="row" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear">
+                <div class="col-md-3 women-collection1 mx-auto my-4">
+                    <p class="men-collection-paragraph">Cross Body</p>
+                    <button class="btn btn-info men-btn px-5 fw-bold text-light bg-danger border-0 rounded-0"
+                        onclick="details('../images/women-bag1.jpg','Cross Body','2000'),location.href='bags-details/bag-details.html'">Price
+                        : 2000</button>
+                </div>
+
+                <div class="col-md-3 women-collection2 mx-auto my-4">
+                    <p class="men-collection-paragraph">Mini Bag</p>
+                    <button class="btn btn-info men-btn px-5 fw-bold text-light bg-danger border-0 rounded-0"
+                        onclick="details('../images/women-bag2.jpg','Mini Bag','1500'),location.href='bags-details/bag-details.html'">Price
+                        : 1500</button>
+                </div>
+                <div class="col-md-3 women-collection3 mx-auto my-4">
+                    <p class="men-collection-paragraph">Tote</p>
+                    <button class="btn btn-info men-btn px-5 fw-bold text-light bg-danger border-0 rounded-0"
+                        onclick="details('../images/women-bag3.jpg','Tote','4000'),location.href='bags-details/bag-details.html'">Price
+                        : 4000</button>
+                </div>
+            </div>
+
+            <div class="row" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear">
+                <div class="col-md-3 women-collection4 mx-auto my-4">
+                    <p class="men-collection-paragraph">Clutches</p>
+                    <button class="btn btn-info men-btn px-5 fw-bold text-light bg-danger border-0 rounded-0"
+                        onclick="details('../images/women-bag4.jpg','Clutches','1000'),location.href='bags-details/bag-details.html'">Price
+                        : 1000</button>
+                </div>
+                <div class="col-md-3 women-collection5 mx-auto my-4">
+                    <p class="men-collection-paragraph">Kelly</p>
+                    <button class="btn btn-info men-btn px-5 fw-bold text-light bg-danger border-0 rounded-0"
+                        onclick="details('../images/women-bag5.jpg','Kelly','3000'),location.href='bags-details/bag-details.html'">Price
+                        : 3000</button>
+                </div>
+                <div class="col-md-3 women-collection6 mx-auto my-4">
+                    <p class="men-collection-paragraph">BackPack</p>
+                    <button class="btn btn-info men-btn px-5 fw-bold text-light bg-danger border-0 rounded-0"
+                        onclick="details('../images/women-bag6.jpg','BackPack','3000'),location.href='bags-details/bag-details.html'">Price
+                        : 3000</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- womens section -->
+
+
+
+    <!-- slider of products -->
+    <section>
+        <div class="container-fluid">
+            <p class="text-center text-dark fw-bold pt-5 mt-5">SHOP</p>
+            <h2 class="pb-5 text-danger text-center">OUR OFFERS</h2>
+            <div class="row pb-5">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="images/slider-pic1.jpg" class="d-block w-50 mx-auto" alt="...">
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/slider-pic2.jpg" class="d-block w-50 mx-auto" alt="...">
+
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slider-pic3.jpg" class="d-block w-50 mx-auto" alt="...">
+
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slider of products -->
+
+    <!-- video -->
+    <section>
+        <div class="container">
+            <h3 class="text-dark text-center py-5 mt-5">OUR SHOP</h3>
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">
+                    <video src="video/1.mp4" controls loop autoplay muted class="w-100 mx-auto d-block mb-5"></video>
+                </div>
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="linear">
+
+                    <h5 class="text-danger pt-3 ps-3"> <i class="fa-solid fa-location-dot"></i>&nbsp; Location</h5>
+                    <h6 class="text-dark pt-3 ps-3"> Rashid Minhas Rd, Block B3 Commercial Area, Gulberg III,
+                        Karachi,Sindh.</h6>
+                    <h5 class="text-danger pt-3 ps-3"><i class="fa-solid fa-phone"></i>&nbsp; Phone No.</h5>
+                    <h6 class="text-dark pt-3 ps-3">+92(03172951022)</h6>
+                    <h5 class="text-danger pt-3 ps-3"><i class="fa-solid fa-at"></i>&nbsp; Email:</h5>
+                    <h6 class="text-dark pt-3 ps-3">Ma2210688@gmail.com</h6>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- video -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class=" justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="fw-bold text-danger py-5">© 2023 Company,Made By Muhammad Anas Naseer Taimoori</p>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="float-end">
+                        <a href=""><img src="images/facebook.png" class="my-5 mx-2" width="30" height="30" alt=""></a>
+                        <a href=""><img src="images/instagram.png" class="my-5 mx-2" width="30" height="30" alt=""></a>
+                        <a href=""><img src="images/twitter.png" class="my-5 mx-2" width="30" height="30" alt=""></a>
+                        <a href=""><img src="images/google-plus.png" class="my-5 mx-2" width="30" height="30"
+                                alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </footer>
+    </div>
+
+
+
+
+
+
+    <!-- start here -->
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="js/home.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
